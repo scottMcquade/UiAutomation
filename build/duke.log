@@ -1,0 +1,32 @@
+2019-04-15 19:57:59 INFO  ClassPathXmlApplicationContext:581 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4923ab24: startup date [Mon Apr 15 19:57:59 EDT 2019]; root of context hierarchy
+2019-04-15 19:57:59 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [cucumber.xml]
+2019-04-15 19:58:00 INFO  PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [driver.properties]
+2019-04-15 19:58:00 INFO  WebDriverFactory:44 - Initiating driver factory - 1
+2019-04-15 19:58:00 INFO  MergedDataInjectedCucumber:72 - file: [Ljava.lang.String;@5b5caf08 1 allFiles: 1
+2019-04-15 19:58:00 INFO  MergedDataInjectedCucumber:158 - featureName: compareProductsTest
+2019-04-15 19:58:00 INFO  WebDriverFactory:161 - Initiating driver in getDriver()
+2019-04-15 19:58:00 INFO  WebDriverFactory:704 - driverType: shared
+2019-04-15 19:58:00 INFO  WebDriverFactory:718 - browserType: chrome
+2019-04-15 19:58:00 INFO  WebDriverFactory:676 - locationType: local
+2019-04-15 19:58:00 INFO  WebDriverFactory:690 - auth: na
+2019-04-15 19:58:00 INFO  WebDriverFactory:352 - Since chrome driver path was not set - setting up using webdriver manager
+2019-04-15 19:58:01 INFO  WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
+2019-04-15 19:58:01 INFO  WebDriverManager:1035 - Exporting webdriver.chrome.driver as C:\Users\Ricardo CTR Mediavil\.m2\repository\webdriver\chromedriver\win32\2.46\chromedriver.exe
+2019-04-15 19:58:01 INFO  WebDriverFactory:367 - Setting chrome options and capabilities for regular browser execution
+2019-04-15 19:58:01 INFO  WebDriverFactory:444 - setting download path for chrome directory as :C:\Temp
+2019-04-15 19:58:01 INFO  WebDriverFactory:459 - Disable Experimental Option for GFE
+2019-04-15 19:58:01 INFO  WebDriverFactory:468 - setting chrome to maximized
+2019-04-15 19:58:01 INFO  WebDriverFactory:493 - setting SSL Certificate Error Handling in Chrome
+2019-04-15 19:58:01 INFO  WebDriverFactory:495 - setting screenshot capability
+2019-04-15 19:58:01 INFO  WebDriverFactory:497 - setting mode to ignore certificate errors
+2019-04-15 19:58:01 INFO  WebDriverFactory:500 - setting javascript enabled
+2019-04-15 19:58:01 INFO  WebDriverFactory:379 - Printing out all the capabilities set for local browser Capabilities {acceptSslCerts: true, browserName: chrome, chrome.switches: [--ignore-certificate-errors], goog:chromeOptions: {args: [start-maximized], extensions: [], useAutomationExtension: false}, javascriptEnabled: true, platform: ANY, takesScreenshot: true, version: }
+2019-04-15 19:58:05 INFO  ExecutionContext:159 - Scenario Started: Compare products flow
+2019-04-15 19:58:05 INFO  PageLoad:30 - Javascript request:complete
+2019-04-15 19:58:05 INFO  PageLoad:30 - Javascript request:complete
+2019-04-15 19:58:13 INFO  PageLoad:30 - Javascript request:complete
+2019-04-15 19:58:13 INFO  PageLoad:30 - Javascript request:complete
+2019-04-15 19:58:18 INFO  ExecutionContext:226 - Scenario Ended: Compare products flow Status: failed
+2019-04-15 19:58:18 INFO  ExecutionContext:242 - Last Scenarios - initiating clean up
+2019-04-15 19:58:18 INFO  ExecutionContext:243 - <--- Calling the Driver Quit --->
+2019-04-15 19:58:19 INFO  ClassPathXmlApplicationContext:982 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@4923ab24: startup date [Mon Apr 15 19:57:59 EDT 2019]; root of context hierarchy
