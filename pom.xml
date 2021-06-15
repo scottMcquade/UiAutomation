@@ -26,7 +26,7 @@
 		<junit.version>4.12</junit.version>
 		<commons.io.version>2.5</commons.io.version>
 		<axe.version>3.0</axe.version>
-		<pdfbox.version>2.0.4</pdfbox.version>
+		<pdfbox.version>2.0.24</pdfbox.version>
 		<ngwebdriver.version>1.1.4</ngwebdriver.version>
 	</properties>
 	<dependencies>
